@@ -63,7 +63,9 @@ void getEmerald() {
     e = 0;
     moveMouse(x[s-1], y[s-1], 1, 1);
   }
+  Keyboard.press(KEY_LEFT_SHIFT);
   Mouse.click();
+  Keyboard.release(KEY_LEFT_SHIFT);
 }
 
 void loop() {
